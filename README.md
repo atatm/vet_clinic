@@ -63,11 +63,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [vet-clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> in this project i create a vet-clinic database in which I also create a table , insert data and query on it.
 
-**[your_project__name]** is a...
+**[vet-clinic]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -206,19 +206,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Alelign Ayana**
+- GitHub: [@atatm](https://github.com/atatm)
+- Twitter: [@alelign_ayana](https://twitter.com/@alelign_ayana)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alelign-ayana/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,9 +222,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[create table]**
+- [ ] **[inserting data]**
+- [ ] **[quering]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
