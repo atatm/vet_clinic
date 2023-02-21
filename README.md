@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [vet-clinic] <a name="about-project"></a>
 
-> in this project i create a vet-clinic database in which I also create a table , insert data and query on it.
+> in this vet-clinic database  i create create a table , insert data and query on it.
 
 **[vet-clinic]** is a...
 
