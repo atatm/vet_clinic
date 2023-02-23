@@ -45,7 +45,29 @@ add foreign key (owner_id) references owners(id);
 
 select * from animals;
 
+-- Create a table named vets with the following columns:
+CREATE TABLE vets ( 
+   id INT GENERATED ALWAYS AS IDENTITY,
+   name VARCHAR(255), 
+   age INT, 
+   date_of_graduation date,
+   PRIMARY KEY(id) 
+ );
 
+ -- Create the specializations table:
+ CREATE TABLE specializations (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    vet_id INT REFERENCES vets(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    species_id INT REFERENCES species(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+-- Create the visits table:
+CREATE TABLE visits (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    animal_id INT REFERENCES animals(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    vet_id INT REFERENCES vets(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    visit_date DATE NOT NULL
+);
 
 
 
